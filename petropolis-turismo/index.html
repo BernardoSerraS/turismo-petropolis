@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turismo em Petrópolis</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho principal da página -->
+    <header class="main-header">
+      <!-- Menu de navegação -->
+      <nav>
+        <ul>
+          <!-- Cada item da lista representa um link do menu -->
+          <li><a href="#home">Home</a></li> 
+          <li><a href="#guias">Guias</a></li>
+          <li><a href="#leste">Área Leste</a></li>
+          <li><a href="#oeste">Área Oeste</a></li> 
+        </ul>
+      </nav>
+    </header>
+    <!-- Conteúdo principal da página -->
+    <main>
+      <!-- Primeira seção: Página inicial/Home -->
+      <section id="home"> <!-- O id="home" permite que o menu navegue até esta seção -->
+        <div class="home-text"> <!-- Container para o texto da home -->
+          <h1>Bem-vindo a Petrópolis</h1> <!-- Título principal da página (maior hierarquia) -->
+          <p>A Cidade Imperial</p> <!-- Parágrafo com subtítulo -->
+        </div>
+      </section>
+      <!-- Segunda seção: Guias Turísticos -->
+      <section id="guias" class="content-section"> <!-- id="guias" para navegação, class para estilização -->
+        <h2>Guias Turísticos</h2> <!-- Título da seção (hierarquia menor que h1) -->
+        <!-- Container que agrupa todos os cards desta seção -->
+        <div class="cards-container">
+          <!-- Primeiro card: Atrações Históricas -->
+          <div class="card"> <!-- Cada card é uma div com class="card" -->
+            <!-- Imagem do card com texto alternativo para acessibilidade -->
+            <img src="img/museu-imperial.jpg" alt="Museu Imperial" />
+            <h3>Atrações Históricas</h3> <!-- Título do card (hierarquia menor que h2) -->
+            <!-- Parágrafo com descrição do conteúdo -->
+            <p>
+              Viaje no tempo conhecendo os palácios e casarões que contam a
+              história do Brasil Império. Uma imersão cultural inesquecível.
+            </p>
+          </div>
+          <!-- Segundo card: Gastronomia -->
+          <div class="card">
+            <img
+              src="img/guia-gastronomia.jpg"
+              alt="Prato de comida em um restaurante"
+            />
+            <h3>Gastronomia</h3>
+            <p>
+              Descubra os sabores da serra, com restaurantes charmosos,
+              chocolaterias artesanais e as famosas cervejarias da região.
+            </p>
+          </div>
+          <!-- Terceiro card: Eventos e Cultura -->
+          <div class="card">
+            <img
+              src="img/guia-cultura.jpg"
+              alt="Festival Bauernfest em Petrópolis"
+            />
+            <h3>Eventos e Cultura</h3>
+            <p>
+              Petrópolis respira cultura, com festivais como a Bauernfest, o
+              Festival de Inverno e uma agenda cheia o ano todo.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Terceira seção: Pontos Turísticos da Área Leste -->
+      <section id="leste" class="content-section">
+        <h2>Pontos Turísticos: Área Leste</h2>
+        <!-- Container para os cards da área leste -->
+        <div class="cards-container">
+          <!-- Card: Museu Imperial -->
+          <div class="card">
+            <img src="img/museu-imperial.jpg" alt="Museu Imperial" />
+            <h3>Museu Imperial</h3>
+            <p>
+              Antiga residência de verão do Imperador D. Pedro II, hoje é um dos
+              museus mais importantes do Brasil.
+            </p>
+          </div>
+          <!-- Card: Palácio de Cristal -->
+          <div class="card">
+            <img src="img/palacio-de-cristal.jpg" alt="Palácio de Cristal" />
+            <h3>Palácio de Cristal</h3>
+            <p>
+              Uma estrutura de vidro e aço inspirada em palácios europeus, palco
+              de exposições e eventos.
+            </p>
+          </div>
+          <!-- Card: Catedral São Pedro de Alcântara -->
+          <div class="card">
+            <img
+              src="img/catedral-petropolis.jpg"
+              alt="Catedral São Pedro de Alcântara"
+            />
+            <h3>Catedral São Pedro de Alcântara</h3>
+            <p>
+              De arquitetura neogótica, abriga o Mausoléu Imperial com os restos
+              mortais da família imperial.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Quarta seção: Pontos Turísticos da Área Oeste -->
+      <section id="oeste" class="content-section">
+        <h2>Pontos Turísticos: Área Oeste</h2>
+        <!-- Container para os cards da área oeste -->
+        <div class="cards-container">
+          <!-- Card: Parque Nacional da Serra dos Órgãos -->
+          <div class="card">
+            <img
+              src="img/parque-nacional.jpg"
+              alt="Vista da Serra dos Órgãos"
+            />
+            <h3>Parque Nacional da Serra dos Órgãos</h3>
+            <p>
+              Ideal para os amantes da natureza, com trilhas, cachoeiras e
+              paisagens deslumbrantes.
+            </p>
+          </div>
+          <!-- Card: Cascata do Véu da Noiva -->
+          <div class="card">
+            <img src="img/veu-da-noiva.jpg" alt="Cachoeira Véu da Noiva" />
+            <h3>Cascata do Véu da Noiva</h3>
+            <p>
+              Uma bela queda d'água de fácil acesso, perfeita para relaxar e
+              tirar fotos.
+            </p>
+          </div>
+          
+          <!-- Card: Fazenda Samambaia -->
+          <div class="card">
+            <img
+              src="img/fazenda-samambaia.jpg"
+              alt="Entrada da Fazenda Samambaia"
+            />
+            <h3>Fazenda Samambaia</h3>
+            <p>
+              Um local histórico com um restaurante renomado, unindo história e
+              alta gastronomia em um só lugar.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Rodapé da página -->
+    <footer>
+      <!-- Informações sobre o desenvolvimento da página -->
+      <p>Desenvolvido para a disciplina de Front-End.</p>
+      <!-- Informações de contato (dados fictícios) -->
+      <p>Informações de Contato: (XX) XXXX-XXXX | email@exemplo.com</p>
+      <!-- Copyright com símbolo © e ano -->
+      <p>&copy; 2025 Turismo Petrópolis. Todos os direitos reservados.</p>
+    </footer>
+  </body> <!-- Fim do corpo da página -->
+</html> <!-- Fim do documento HTML -->
